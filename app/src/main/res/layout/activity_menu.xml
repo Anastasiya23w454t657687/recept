@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Назад"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Войти" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Зарегистрироваться" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/my_recipes_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Мои рецепты"
+        android:visibility="gone"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/favorites_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Избранное"
+        android:visibility="gone"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выйти"
+        android:visibility="gone" />
+
+</LinearLayout>

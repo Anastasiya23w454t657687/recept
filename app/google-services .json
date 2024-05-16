@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "508520311028",
+    "firebase_url": "https://resipes-2a973-default-rtdb.firebaseio.com",
+    "project_id": "resipes-2a973",
+    "storage_bucket": "resipes-2a973.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508520311028:android:5b590e4ab7173b4eb2d6a1",
+        "android_client_info": {
+          "package_name": "com.example.recipes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs7pV-6dI789lMTponRsAFHN2VTKtH0V8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

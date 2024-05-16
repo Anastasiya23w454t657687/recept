@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edNameRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Название рецепта" />
+
+    <EditText
+        android:id="@+id/edIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ингредиенты"
+        android:layout_below="@id/edNameRecipe"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/edInstructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Инструкции"
+        android:layout_below="@id/edIngredients"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сохранить"
+        android:layout_below="@id/edInstructions"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

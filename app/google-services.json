@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "597237700806",
+    "firebase_url": "https://resipes-df414-default-rtdb.firebaseio.com",
+    "project_id": "resipes-df414",
+    "storage_bucket": "resipes-df414.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597237700806:android:2109a224dbc25eb0c31fc7",
+        "android_client_info": {
+          "package_name": "com.example.recipes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3RDLscmd3pdZEOaDralssVISA6q3WOA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597237700806:android:dde3bd12d7d8b5f5c31fc7",
+        "android_client_info": {
+          "package_name": "com.example.resipes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3RDLscmd3pdZEOaDralssVISA6q3WOA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
