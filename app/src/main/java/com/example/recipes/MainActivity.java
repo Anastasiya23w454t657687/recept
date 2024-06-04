@@ -84,6 +84,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("ingredients", selectedRecipe.getIngredients());
                 intent.putExtra("instructions", selectedRecipe.getInstructions());
                 intent.putExtra("author", selectedRecipe.getAuthor());
+                intent.putExtra("image_url", selectedRecipe.getImageUrl()); // Передаем URL изображения
                 startActivity(intent);
             }
         });
